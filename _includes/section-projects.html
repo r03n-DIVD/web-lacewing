@@ -7,7 +7,7 @@
 
     <div class="projects-grid">
       {% for project in site.projects %}
-      <div class="project-card">
+      <a href="{{ project.url | relative_url }}" class="project-card">
         <div class="project-card__header">
           <span class="project-status project-status--{{ project.status }}">{{ project.status | capitalize }}</span>
           <span class="project-dates">
@@ -22,7 +22,7 @@
         {% if project.description %}
         <p class="project-card__description">{{ project.description }}</p>
         {% endif %}
-      </div>
+      </a>
       {% endfor %}
     </div>
   </div>
