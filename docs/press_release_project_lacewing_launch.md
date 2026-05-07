@@ -1,122 +1,177 @@
 ---
-# PRESS RELEASE
+# DIVD launches Project Lacewing: an open European initiative for AI-driven vulnerability research
 
-**FOR IMMEDIATE RELEASE**
-**7 May 2026**
+**The Hague, Netherlands, 7 May 2026**  
+The Dutch Institute for Vulnerability Disclosure (DIVD) today announces the launch of **Project Lacewing**, a European, transparent and community-driven initiative to use AI for finding and responsibly disclosing vulnerabilities in critical software.
 
----
+AI is changing vulnerability research. Capabilities that were once limited to highly specialised researchers are becoming faster, cheaper and easier to use. That creates opportunities for defenders, but also a serious question: who gets access to these capabilities, under what conditions, and in whose interest?
 
-# PRESS RELEASE
+Project Lacewing is DIVD’s answer to that question.
 
-**FOR IMMEDIATE RELEASE**
-**7 May 2026**
+The project follows the announcement of Anthropic’s Project Glasswing on 7 April 2026. Glasswing gives selected organisations early access to advanced AI capabilities for vulnerability research, with launch partners including major US technology, finance and security companies. Project Lacewing takes a different route: open where possible, European by design, independent in governance, and driven by the security community.
 
----
+	“AI will change how vulnerabilities are found. That part is no longer theoretical. The real question is who controls these capabilities, and whether they are used only behind closed doors or also in the public interest. With Project Lacewing, DIVD wants to build an open, independent and European answer.”
 
-## DIVD Launches Project Lacewing: a European, Open Answer to AI-Driven Vulnerability Research
+## Why Project Lacewing
 
-**The Hague, Netherlands** — The Dutch Institute for Vulnerability Disclosure (DIVD), a non-profit organisation of volunteer security researchers, today announces the launch of **Project Lacewing** — a European, transparent, community-driven initiative to deploy AI in finding and fixing vulnerabilities in critical software.
+The barrier to finding software vulnerabilities is dropping rapidly. AI models can already assist researchers in reviewing code, identifying suspicious patterns and accelerating the discovery of security flaws. In the wrong hands, that same capability can increase the speed and scale of offensive activity.
 
-The launch comes in direct response to Anthropic's Project Glasswing, announced on 7 April 2026, which uses AI to hunt for vulnerabilities at scale but counts Amazon, Apple, Microsoft, Google, NVIDIA, JPMorgan, and Cisco among its core stakeholders. Project Lacewing offers an independent, non-commercial alternative — one driven by the European security community rather than by commercial interests.
+DIVD believes this development should not be left only to large technology companies, commercial security vendors or state actors. Critical software is used by everyone. The ability to find and fix vulnerabilities in that software should also serve the wider public interest.
 
-### Why now
+Project Lacewing will focus on using AI for defensive vulnerability research, coordinated disclosure and practical remediation. Affected vendors and organisations will be notified first. Public communication will follow only when responsible disclosure allows it.
 
-The barrier to finding software vulnerabilities is dropping rapidly. AI is already proving capable of surfacing bugs that have sat undetected in critical software for decades. Project Lacewing exists to ensure that this capability is not concentrated in the hands of a small group of American technology companies or state actors.
+That is how DIVD has always worked: find what is vulnerable, notify the people who can fix it, and keep pushing until the risk is reduced.
 
-> "The question isn't whether these capabilities are coming. The question is who has them. DIVD can be a third way — transparent, independent, European."
+## What Project Lacewing will do
 
-### What Project Lacewing does
+Project Lacewing will invest in AI capacity for vulnerability research, including both cloud-based model access and locally running open-source models. The project will explore where AI can meaningfully support researchers, where current claims need independent validation, and how these capabilities can be used safely and responsibly.
 
-Project Lacewing will invest in AI capacity — both cloud-based tokens and locally running open-source models — and deploy that capacity for automated vulnerability research. Everything discovered will be disclosed responsibly: affected parties are notified first; the wider world learns afterwards. This is the same approach DIVD has followed throughout its history.
+The project starts with several workstreams:
 
-The project is structured around focused sub-projects:
+### Project initiation
 
-- **Project Initiation** (active from 7 May 2026): building the partner ecosystem and defining the roadmap.
-- **Open Source Models**: investigating the use of open-source AI in vulnerability research.
-- **Closed Source Models**: independently evaluating the claims made by commercial model providers.
-- **Investigation of Software**: AI-powered research targeting critical software not covered by Project Glasswing.
-- **Data Leak Discovery**: Automated detection of critical data unintentionally exposed in publicly accessible media such as cloud storage buckets and source code repositories.
-- **Vulnerable Configuration Research**: Automated discovery of common misconfigurations in systems and services that create exploitable vulnerabilities — before attackers find them first.
+Building the partner ecosystem, setting the research agenda and defining the roadmap.
 
-### A proven track record
+### Open-source models
 
-DIVD brings 189 volunteers, 193 handled cases, and 1.4 million vulnerable IP addresses notified to this initiative. No agenda other than making the internet safer.
+Investigating how open-source AI models can support vulnerability research in a transparent and reproducible way.
 
-### Partners and support
+### Commercial models
 
-Founding partners include DIVD itself and Schuberg Philis, a Dutch IT company focused on mission-critical systems. Additional partners can contribute funding, hardware, people, or codebase access.
+Independently evaluating claims made by commercial model providers and testing where these models are useful, limited or risky.
 
-Project Lacewing is seeking support across three areas: technical expertise, fundraising, and champions who can give the project a public face and voice.
+### Critical software research
 
-### Get involved
+Using AI-assisted research to investigate software and systems that are important to society, especially where they are not already covered by existing initiatives.
 
-- Website: [www.lacewing.nl](https://www.lacewing.nl)
-- Contact: [lacewing@divd.nl](mailto:lacewing@divd.nl)
-- Donate: [divd.nl/donate](https://divd.nl/donate)
+### Data leak discovery
 
----
+Automating the discovery of sensitive data unintentionally exposed in public locations, such as cloud storage buckets, source code repositories and other publicly accessible media.
 
-**About DIVD**
-The Dutch Institute for Vulnerability Disclosure is a non-profit organisation of volunteer security researchers that scans the internet for vulnerabilities and notifies affected parties. DIVD operates under a strict responsible disclosure policy.
+### Misconfiguration research
 
-**Media contact**
+Finding common misconfigurations in internet-facing systems and services before attackers can abuse them.
+
+## Responsible disclosure remains the foundation
+
+Project Lacewing does not change DIVD’s principles. DIVD does not publish vulnerabilities before affected parties have had a chance to take action. Researchers working under Project Lacewing will follow DIVD’s responsible disclosure process and code of conduct.
+
+AI may change the speed and scale of vulnerability discovery, but it does not change the responsibility that comes with it.
+
+## A community with a track record
+
+DIVD is a non-profit organisation of volunteer security researchers. Since its founding, DIVD has handled hundreds of vulnerability cases and notified organisations around the world about vulnerable systems and leaked credentials.
+
+Project Lacewing builds on that experience. It combines DIVD’s coordinated vulnerability disclosure process, volunteer community and public-interest mission with new AI capabilities.
+
+The goal is simple: use the same developments that attackers may abuse to help defenders move faster.
+
+## Partners and support
+
+The founding partners of Project Lacewing are DIVD and Schuberg Philis, a Dutch IT company specialised in mission-critical systems.
+
+DIVD is looking for additional partners who want to contribute to the project. Support can include funding, compute capacity, hardware, technical expertise, research time, access to codebases, or help with public outreach.
+
+Project Lacewing is especially looking for support in three areas:
+
+- technical experts who can help build and test the research setup;
+- partners who can contribute funding, compute or infrastructure;
+- champions who can help explain why this work matters.
+
+## Get involved
+
+Project Lacewing is open to researchers, partners and organisations that want to help use AI for defensive security in the public interest.
+
+Website: [www.lacewing.nl](https://www.lacewing.nl)  
+Contact: [lacewing@divd.nl](mailto:lacewing@divd.nl)  
+Donate: [divd.nl/donate](https://divd.nl/donate)
+
+## About DIVD
+
+The Dutch Institute for Vulnerability Disclosure is a non-profit organisation of volunteer security researchers. DIVD aims to make the digital world safer by finding vulnerabilities in digital systems and reporting them to the people who can fix them. DIVD works independently, globally and under a strict responsible disclosure policy.
+
+## Media contact
+
 [lacewing@divd.nl](mailto:lacewing@divd.nl)
 
----
----
 
-# PERSBERICHT
 
-**VOOR DIRECTE PUBLICATIE**
-**7 mei 2026**
+_____
 
----
+# DIVD lanceert Project Lacewing: een open Europees initiatief voor AI-gedreven kwetsbaarheidsonderzoek
 
-## DIVD lanceert Project Lacewing: een Europees, open antwoord op AI-gedreven kwetsbaarheidsonderzoek
+**Den Haag, 7 mei 2026** — Het Dutch Institute for Vulnerability Disclosure (DIVD) lanceert vandaag **Project Lacewing**, een Europees, transparant en community-gedreven initiatief om AI in te zetten voor het vinden en verantwoord melden van kwetsbaarheden in kritieke software.
 
-**Den Haag** — Het Dutch Institute for Vulnerability Disclosure (DIVD), een non-profitorganisatie van vrijwillige beveiligingsonderzoekers, kondigt vandaag de lancering aan van **Project Lacewing** — een Europees, transparant en community-gedreven initiatief om AI in te zetten voor het vinden en verhelpen van kwetsbaarheden in kritieke software.
+AI verandert kwetsbaarheidsonderzoek. Mogelijkheden die voorheen vooral beschikbaar waren voor zeer gespecialiseerde onderzoekers worden sneller, goedkoper en makkelijker inzetbaar. Dat biedt kansen voor verdedigers, maar roept ook een belangrijke vraag op: wie krijgt toegang tot deze mogelijkheden, onder welke voorwaarden, en in wiens belang worden ze gebruikt?
 
-De lancering is een direct antwoord op Project Glasswing van Anthropic, aangekondigd op 7 april 2026, dat AI op grote schaal inzet voor kwetsbaarheidsonderzoek maar waarbij Amazon, Apple, Microsoft, Google, NVIDIA, JPMorgan en Cisco tot de kernpartners behoren. Project Lacewing biedt een onafhankelijk, niet-commercieel alternatief — gedreven door de Europese beveiligingsgemeenschap in plaats van door commerciële belangen.
+Project Lacewing is DIVD’s antwoord op die vraag.
 
-### Waarom nu
+Het project volgt op de aankondiging van Anthropic’s Project Glasswing op 7 april 2026. Glasswing geeft geselecteerde organisaties vroegtijdig toegang tot geavanceerde AI-mogelijkheden voor kwetsbaarheidsonderzoek, met launch partners uit onder meer de Amerikaanse technologie-, financiële en securitysector. Project Lacewing kiest een andere route: open waar mogelijk, Europees by design, onafhankelijk in governance en gedreven door de securitycommunity.
 
-De drempel voor het vinden van softwarekwetsbaarheden daalt snel. AI blijkt al in staat bugs bloot te leggen die soms twintig of dertig jaar onopgemerkt in kritieke software hebben gezeten. Project Lacewing bestaat om te voorkomen dat deze capaciteit wordt geconcentreerd bij een kleine groep Amerikaanse techbedrijven of statelijke actoren.
+	“AI gaat veranderen hoe kwetsbaarheden worden gevonden. Dat is geen theorie meer. De echte vraag is wie deze mogelijkheden beheert, en of ze alleen achter gesloten deuren worden ingezet of ook in het publieke belang. Met Project Lacewing wil DIVD een open, onafhankelijk en Europees antwoord bouwen.”
 
-> "De vraag is niet of deze capaciteiten eraan komen. De vraag is wie ze heeft. DIVD kan een derde weg zijn — transparant, onafhankelijk, Europees."
+## Waarom Project Lacewing
 
-### Wat Project Lacewing doet
+De drempel om softwarekwetsbaarheden te vinden daalt snel. AI-modellen kunnen onderzoekers nu al helpen bij het beoordelen van code, het herkennen van verdachte patronen en het versnellen van het vinden van beveiligingsfouten. In verkeerde handen kan diezelfde ontwikkeling de snelheid en schaal van offensieve activiteiten vergroten.
 
-Project Lacewing investeert in AI-capaciteit — zowel via cloudgebaseerde modellen als lokaal draaiende open-source modellen — en zet die in voor geautomatiseerd kwetsbaarheidsonderzoek. Alles wat wordt gevonden, wordt op verantwoorde wijze gepubliceerd: getroffen partijen worden als eerste ingelicht; de rest van de wereld volgt daarna. Dit is de werkwijze die DIVD al jaren hanteert.
+DIVD vindt dat deze ontwikkeling niet alleen moet worden overgelaten aan grote technologiebedrijven, commerciële securityleveranciers of statelijke actoren. Kritieke software wordt door iedereen gebruikt. De mogelijkheid om kwetsbaarheden in die software te vinden en te verhelpen moet daarom ook het bredere publieke belang dienen.
 
-Het project is opgebouwd uit gerichte deelprojecten:
+Project Lacewing richt zich op het gebruik van AI voor defensief kwetsbaarheidsonderzoek, coordinated vulnerability disclosure en praktische mitigatie. Getroffen leveranciers en organisaties worden eerst geïnformeerd. Publieke communicatie volgt pas wanneer verantwoorde openbaarmaking dat toelaat.
 
-- **Projectinitiatie** (actief vanaf 7 mei 2026): het opbouwen van het partnerecosysteem en het bepalen van de roadmap.
-- **Open source modellen**: onderzoek naar het gebruik van open-source AI in kwetsbaarheidsonderzoek.
-- **Gesloten bronmodellen**: onafhankelijke evaluatie van de claims van commerciële modelproviders.
-- **Softwareonderzoek**: AI-gedreven onderzoek gericht op kritieke software die buiten het bereik van Project Glasswing valt.
-- **Ontdekking van datalekken**: Geautomatiseerde detectie van kritieke data die onbedoeld openbaar toegankelijk is gemaakt via media zoals cloudstorage of broncode-repositories.
-- **Onderzoek naar kwetsbare configuraties**: Geautomatiseerde opsporing van veelvoorkomende misconfiguraties in systemen en diensten die uitbuitbare kwetsbaarheden veroorzaken — voordat aanvallers ze vinden.
+Zo werkt DIVD al sinds de oprichting: vinden wat kwetsbaar is, melden bij de mensen die het kunnen oplossen, en blijven opvolgen totdat het risico is verlaagd.
 
-### Bewezen track record
+## Wat Project Lacewing doet
 
-DIVD brengt 189 vrijwilligers, 193 afgehandelde cases en 1,4 miljoen genotificeerde kwetsbare IP-adressen mee. Met geen ander doel dan het internet veiliger te maken.
+Project Lacewing investeert in AI-capaciteit voor kwetsbaarheidsonderzoek, waaronder toegang tot cloudmodellen en lokaal draaiende open-sourcemodellen. Het project onderzoekt waar AI onderzoekers echt kan ondersteunen, waar claims onafhankelijk getoetst moeten worden en hoe deze mogelijkheden veilig en verantwoord kunnen worden ingezet.
 
-### Partners en ondersteuning
+Het project start met verschillende werkstromen:
 
-De oprichtende partners zijn DIVD zelf en Schuberg Philis, een Nederlandse IT-onderneming gespecialiseerd in bedrijfskritische systemen. Aanvullende partners kunnen bijdragen met financiering, hardware, mensen of toegang tot codebases.
+- **Projectinitiatie**  
+  Het bouwen van het partnerecosysteem, het bepalen van de onderzoeksagenda en het uitwerken van de roadmap.
 
-Project Lacewing zoekt ondersteuning op drie gebieden: technische expertise, fondsenwerving en voortrekkers die het project een gezicht en stem naar buiten kunnen geven.
+- **Open-sourcemodellen**  
+  Onderzoeken hoe open-source AI-modellen kwetsbaarheidsonderzoek transparant en reproduceerbaar kunnen ondersteunen.
 
-### Doe mee
+- **Commerciële modellen**  
+  Het onafhankelijk toetsen van claims van commerciële modelaanbieders en onderzoeken waar deze modellen nuttig, beperkt of risicovol zijn.
 
-- Website: [www.lacewing.nl](https://www.lacewing.nl)
-- Contact: [lacewing@divd.nl](mailto:lacewing@divd.nl)
-- Doneren: [divd.nl/donate](https://divd.nl/donate)
+- **Onderzoek naar kritieke software**  
+  AI-ondersteund onderzoek naar software en systemen die belangrijk zijn voor de samenleving, vooral waar die nog niet door bestaande initiatieven worden meegenomen.
 
----
+- **Data leak discovery**  
+  Het geautomatiseerd ontdekken van gevoelige data die onbedoeld publiek toegankelijk is, bijvoorbeeld in cloudopslag, broncoderepositories en andere openbare locaties.
 
-**Over DIVD**
-Het Dutch Institute for Vulnerability Disclosure is een non-profitorganisatie van vrijwillige beveiligingsonderzoekers die het internet scant op kwetsbaarheden en getroffen partijen informeert. DIVD hanteert een strikt beleid van responsible disclosure.
+- **Misconfiguratieonderzoek**  
+  Het vinden van veelvoorkomende misconfiguraties in internet-facing systemen en diensten voordat aanvallers ze kunnen misbruiken.
 
-**Perscontact**
+## Verantwoorde openbaarmaking blijft de basis
+
+Project Lacewing verandert niets aan de principes van DIVD. DIVD publiceert geen kwetsbaarheden voordat getroffen partijen de kans hebben gehad om actie te ondernemen. Onderzoekers die binnen Project Lacewing werken volgen het responsible disclosure-proces en de gedragscode van DIVD.
+
+AI kan de snelheid en schaal van kwetsbaarheidsonderzoek veranderen, maar niet de verantwoordelijkheid die daarbij hoort.
+
+## Een community met een bewezen staat van dienst
+
+DIVD is een non-profitorganisatie van vrijwillige securityonderzoekers. Sinds de oprichting heeft DIVD honderden kwetsbaarheidscases behandeld en organisaties over de hele wereld geïnformeerd over kwetsbare systemen en gelekte credentials.
+
+Project Lacewing bouwt voort op die ervaring. Het combineert DIVD’s proces voor coordinated vulnerability disclosure, de vrijwilligerscommunity en de publieke missie met nieuwe AI-mogelijkheden.
+
+Het doel is eenvoudig: dezelfde ontwikkelingen die aanvallers kunnen misbruiken inzetten om verdedigers sneller te laten handelen.
+
+## Support or get involved
+
+The founding partners of Project Lacewing are DIVD and Schuberg Philis, a Dutch IT company specialised in mission-critical systems.
+
+DIVD is looking for additional partners who want to contribute to the project. Support can include funding, compute capacity, hardware, technical expertise, research time, access to codebases, or help with public outreach.
+
+Website: [www.lacewing.nl](https://www.lacewing.nl)  
+Contact: [lacewing@divd.nl](mailto:lacewing@divd.nl)  
+Donate: [divd.nl/donate](https://divd.nl/donate)
+
+## Over DIVD
+
+Het Dutch Institute for Vulnerability Disclosure is een non-profitorganisatie van vrijwillige securityonderzoekers. DIVD wil de digitale wereld veiliger maken door kwetsbaarheden in digitale systemen te vinden en te melden bij de mensen die ze kunnen oplossen. DIVD werkt onafhankelijk, wereldwijd en volgens een strikt responsible disclosure-beleid.
+
+## Media contact
+
 [lacewing@divd.nl](mailto:lacewing@divd.nl)
