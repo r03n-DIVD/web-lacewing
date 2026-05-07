@@ -10,7 +10,6 @@ highlighter: rouge
 permalink: pretty
 
 exclude:
-  - docs/
   - Gemfile
   - Gemfile.lock
   - README.md
@@ -28,6 +27,10 @@ collections:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: feed.xml
 
 defaults:
   - scope:
@@ -35,6 +38,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:year/:month/:day/:title/
   - scope:
       path: ""
       type: "partners"
