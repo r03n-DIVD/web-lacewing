@@ -22,13 +22,19 @@ collections:
     output: true
     permalink: /partner/:name/
   projects:
-    output: false
+    output: true
+    permalink: /projects/:title/
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
 defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
   - scope:
       path: ""
       type: "partners"

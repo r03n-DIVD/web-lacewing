@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<main id="main-content" class="project-detail">
+  <div class="container">
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/#projects' | relative_url }}">Sub-projects</a>
+      <span aria-hidden="true">›</span>
+      <span>{{ page.title }}</span>
+    </nav>
+
+    <header class="project-header">
+      <div class="project-header__meta">
+        <span class="project-status project-status--{{ page.status }}">{{ page.status | capitalize }}</span>
+        <span class="project-dates">
+          {% if page.start_date %}
+            {{ page.start_date | date: "%-d %B %Y" }}{% if page.end_date %} – {{ page.end_date | date: "%-d %B %Y" }}{% else %} – ongoing{% endif %}
+          {% else %}
+            TBD
+          {% endif %}
+        </span>
+      </div>
+      <h1 class="project-title">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="project-lead">{{ page.description }}</p>
+      {% endif %}
+    </header>
+
+    {% if content != "" %}
+    <div class="project-body">
+      {{ content }}
+    </div>
+    {% endif %}
+
+    <footer class="project-footer">
+      <a href="{{ '/#projects' | relative_url }}" class="btn btn--ghost">← Back to sub-projects</a>
+    </footer>
+
+  </div>
+</main>

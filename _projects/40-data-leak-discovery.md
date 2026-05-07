@@ -1,8 +1,8 @@
 ---
 title: Data Leak Discovery
-status: Proposed
-start_date: TBD
-excerpt: >
+status: proposed
+start_date: 
+description: >
   Automated detection of sensitive data unintentionally exposed in publicly
   accessible locations such as cloud storage buckets and source code repositories.
 ---

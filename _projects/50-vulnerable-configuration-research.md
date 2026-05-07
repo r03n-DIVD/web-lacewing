@@ -1,8 +1,8 @@
 ---
 title: Vulnerable Configuration Research
-status: Proposed
-start_date: TBD
-excerpt: >
+status: proposed
+start_date: 
+description: >
   Automated discovery of common misconfigurations in internet-facing systems and
   services that create exploitable attack surfaces — before attackers find them.
 ---
